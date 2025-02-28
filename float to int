@@ -1,0 +1,6 @@
+a=2.45643
+print(a)
+print(type(a))
+b=int(a)
+print(b)
+print(type(b))
