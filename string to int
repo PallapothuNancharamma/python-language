@@ -1,0 +1,12 @@
+a="123"
+print(a)
+print(type(a))
+b=int(a)
+print(b)
+print(type(b))
+c="cse"
+print(c)
+print(type(c))
+d=int(c)
+print(d)
+print(type(d))
