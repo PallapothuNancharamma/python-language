@@ -5,12 +5,12 @@ upper=False
 lower=False
 if b<8:
     print("Ivalid password")
-for i in  range(b):
-    if(pass_word[i].isupper()):
+for i in pass_word:
+    if(i.isupper()):
         upper=True
-    elif(pass_word[i].islower()):
+    elif(i.islower()):
         lower=True    
-    elif(pass_word[i].isdigit()):
+    elif(i.isdigit()):
         digit=True 
 if(digit and upper and lower) :
     print("Valid password")
