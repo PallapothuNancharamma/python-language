@@ -1,0 +1,13 @@
+a=[1,2,3,10]
+print(len(a))
+a.append(4)
+print(a)
+a.remove(3)
+print(a)
+a.extend([2,3,4,6])
+print(a)
+print(a.count(4))
+a.insert(2,"seta")
+print(a)
+a.pop(2)
+print(a)
